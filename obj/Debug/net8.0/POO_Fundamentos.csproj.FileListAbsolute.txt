@@ -1,0 +1,15 @@
+C:\Users\alexa\POO_Fundamentos\POO_Fundamentos\bin\Debug\net8.0\POO_Fundamentos.exe
+C:\Users\alexa\POO_Fundamentos\POO_Fundamentos\bin\Debug\net8.0\POO_Fundamentos.deps.json
+C:\Users\alexa\POO_Fundamentos\POO_Fundamentos\bin\Debug\net8.0\POO_Fundamentos.runtimeconfig.json
+C:\Users\alexa\POO_Fundamentos\POO_Fundamentos\bin\Debug\net8.0\POO_Fundamentos.dll
+C:\Users\alexa\POO_Fundamentos\POO_Fundamentos\bin\Debug\net8.0\POO_Fundamentos.pdb
+C:\Users\alexa\POO_Fundamentos\POO_Fundamentos\obj\Debug\net8.0\POO_Fundamentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\POO_Fundamentos\POO_Fundamentos\obj\Debug\net8.0\POO_Fundamentos.AssemblyInfoInputs.cache
+C:\Users\alexa\POO_Fundamentos\POO_Fundamentos\obj\Debug\net8.0\POO_Fundamentos.AssemblyInfo.cs
+C:\Users\alexa\POO_Fundamentos\POO_Fundamentos\obj\Debug\net8.0\POO_Fundamentos.csproj.CoreCompileInputs.cache
+C:\Users\alexa\POO_Fundamentos\POO_Fundamentos\obj\Debug\net8.0\POO_Fundamentos.sourcelink.json
+C:\Users\alexa\POO_Fundamentos\POO_Fundamentos\obj\Debug\net8.0\POO_Fundamentos.dll
+C:\Users\alexa\POO_Fundamentos\POO_Fundamentos\obj\Debug\net8.0\refint\POO_Fundamentos.dll
+C:\Users\alexa\POO_Fundamentos\POO_Fundamentos\obj\Debug\net8.0\POO_Fundamentos.pdb
+C:\Users\alexa\POO_Fundamentos\POO_Fundamentos\obj\Debug\net8.0\POO_Fundamentos.genruntimeconfig.cache
+C:\Users\alexa\POO_Fundamentos\POO_Fundamentos\obj\Debug\net8.0\ref\POO_Fundamentos.dll

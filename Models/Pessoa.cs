@@ -14,9 +14,9 @@ namespace POO_Fundamentos.Models
         {
         }
         
-        public void Apresentar()
+        public virtual void Apresentar()
         {
-            Console.WriteLine($"Ola me chamo {Nome} e esse eh meu endereco de email {Email}");
+            Console.WriteLine($"Ola me chamo {Nome}, sou da classe Pai e esse eh meu endereco de email para contato {Email}\nO Aluno e o Professor irao sobrescrever essa forma de se presentar");
         }
     }
 }

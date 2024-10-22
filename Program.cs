@@ -1,10 +1,31 @@
 ﻿using Models;
 using POO_Fundamentos.Models;
 
-//ContaCorrente c1 = new ContaCorrente("12345", 1000);
+QuebraDeLinha();
 
-//c1.Sacar(1500);
-//c1.ExibirSaldo();
+Console.WriteLine("CONTA CORRENTE");
+
+QuebraDeLinha();
+
+ContaCorrente contaCorrente = new ContaCorrente();
+contaCorrente.Depositar(500);
+contaCorrente.ExibirSaldo();
+
+QuebraDeLinha();
+
+Console.WriteLine("CONTA POUPANCA");
+
+QuebraDeLinha();
+
+ContaPoupanca contaPoupanca = new ContaPoupanca();
+contaPoupanca.Depositar(1500);
+contaPoupanca.ExibirSaldo();
+
+QuebraDeLinha();
+
+
+
+/*
 
 Pessoa p1 = new Pessoa();
 p1.Nome = "Alexandre";
@@ -28,7 +49,10 @@ professor.Salario = 10000;
 professor.Apresentar();
 QuebraDeLinha();
 
+*/
+
 static void QuebraDeLinha()
 {
     Console.WriteLine(new string('-', 120));
 }
+

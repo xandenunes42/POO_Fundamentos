@@ -2,37 +2,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using POO_Fundamentos.Models;
 
 namespace Models
 {
-    public class ContaCorrente
+    public class ContaCorrente : ContaAbstrata
     {
-        public string NumeroConta { get; set; }
-
-        private decimal Saldo { get; set; }
-
-        public ContaCorrente(string numeroConta, decimal saldo)
+        private decimal taxaDeposito = 0.10m;
+        public override void Depositar(decimal valor) //Metodo herdado da classe abstrata
         {
-            NumeroConta = numeroConta;
-            Saldo = saldo;
-        }
+            //Com essa ideia eh possivel ter diferentes tipos de contas(poupanca/corrente/etc), que herdarao de Conta, abtrata. Cada uma com suas regras dentro do metodo
+            
+            saldo += valor - taxaDeposito; 
 
-        public void Sacar(decimal valor)
-        {
-            if (valor > Saldo || valor < 0)
-            {
-                Console.WriteLine($"Nao foi possivel sacar {valor} ! Saldo atual: {Saldo}");
-            }
-            else
-            {
-                Saldo = Saldo - valor;
-                Console.WriteLine($"Saque efetuado com sucesso!");
-            }
-        }
-
-        public void ExibirSaldo()
-        {
-            Console.WriteLine($"Salto atual: {Saldo}");
+            Console.WriteLine($"Valor depositado com sucesso !\nValor da taxa: {taxaDeposito.ToString("C")}");
         }
     }
 }
